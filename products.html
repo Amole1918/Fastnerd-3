@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/dropstyles.css">
+  </head>
+<body>
+    <header class="header text-center">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid logo" src="images/FASTNERD_logo-png.png" alt="CyberFortress Logo"> <!-- Replace with actual logo path -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropbtn" href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Our Support Services
+                            </a>
+                            <ul class="dropdown-content" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Business IT Support</a></li>
+                                <li><a class="dropdown-item" href="#">Security Systems</a></li>
+                                <li><a class="dropdown-item" href="#">Connectivity & Voice</a></li>
+                                <li><a class="dropdown-item" href="#">Electronic Repairs</a></li>
+                                <li><a class="dropdown-item" href="#">Technology Training</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item mx-3 sm-mx-0">
+                            <a class="btn btn-outline-light btn-contact bg-primary" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+          <h1 class="product-name text-primary">RETAIL PRODUCTS</h1>
+          <p>We offer high-quality, affordable products designed to enhance your technology and security endeavors.</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All (11)</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="for-you-tab" data-bs-toggle="tab" data-bs-target="#for-you" type="button" role="tab" aria-controls="for-you" aria-selected="false">CCTV Cameras</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="for-your-animals-tab" data-bs-toggle="tab" data-bs-target="#for-your-animals" type="button" role="tab" aria-controls="for-your-animals" aria-selected="false">Access Control Systems</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+            <div class="container">
+                <div class="row text-center my-5">
+                  <!-- Product Card 1 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/access-control.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Door Locks</h5>
+                      <div class="price">Price $450.00</div>
+                      <!-- <div class="wholesale-price">Whole Sale Price $350.00</div> -->
+                      <div class="status in-stock">In-Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary Fmt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <!-- Product Card 2 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/access-control.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Door Locks</h5>   
+                      <div class="price">Price $450.00</div>
+                      <!-- <div class="wholesale-price">Whole Sale Price $350.00</div> -->
+                      <div class="status in-stock">In-Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <!-- Product Card 3 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/FACIAL.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Biometric Time Attendance</h5>
+                      <div class="price">Price $450.00</div>
+                      <!-- <div class="wholesale-price">Whole Sale Price $350.00</div> -->
+                      <div class="status out-of-stock">Out of Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/FACIAL.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Biometric Time Attendance</h5>
+                      <div class="price">Price $450.00</div>
+                      <div class="status out-of-stock">Out of Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="row text-center">
+                  <!-- Product Card 1 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/access-control.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Black Cat Camera</h5>
+                      <div class="price">Price $450.00</div>
+                      <!-- <div class="wholesale-price">Whole Sale Price $350.00</div> -->
+                      <div class="status in-stock">In-Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <!-- Product Card 2 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/access-control.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">CCTV Camera</h5>   
+                      <div class="price">Price $450.00</div>
+                      <!-- <div class="wholesale-price">Whole Sale Price $350.00</div> -->
+                      <div class="status in-stock">In-Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <!-- Product Card 3 -->
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/FACIAL.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Biometric Time Attendance</h5>
+                      <div class="price">Price $450.00</div>
+                      <div class="status out-of-stock">Out of Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="product-card">
+                      <img class="img-fluid" src="images/FACIAL.png" alt="Headphones">
+                      <h5 class="product-name" id="product-name">Biometric Time Attendance</h5>
+                      <div class="price">Price $450.00</div>
+                      <div class="status out-of-stock">Out of Stock</div>
+                      <div class="color-options">
+                        <span style="background-color: #c0c0c0;"></span>
+                        <span style="background-color: #808080;"></span>
+                        <span style="background-color: #404040;"></span>
+                      </div>
+                      <button class="btn btn-primary mt-3">View & Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="for-you" role="tabpanel" aria-labelledby="for-you-tab">CCTV cameras content</div>
+          <div class="tab-pane fade" id="for-your-animals" role="tabpanel" aria-labelledby="for-your-animals-tab">Access Control Systems</div>
+        </div>
+    </div>
+
+    <!-- Services Part -->
+     <section class="services py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <h5 class="text-dark what-we-do">What we Do??</h5>
+              <h1 class="services-heading text-primary">Our Services</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1">
+              <i class="bi bi-dash-lg h1 text-white"></i>
+            </div>
+            <div class="col-md-6 col-sm-12 text-white">
+              Set goals with the customer and achieve the best results, 
+              in order to prmote and develop the business to new and high places
+            </div>
+            <div class="col-md-5 col-sm-12">
+
+            </div>
+          </div>
+        </div>
+     </section>
+     <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="section-header text-center">
+            <h2 class="fw-bold fs-1 text-white">
+              <span class="b-class-secondary"></span>
+            </h2>
+            <p class="sec-icon"><i class="bi bi-gear h1"></i></p>
+          </div>
+        </div>
+        <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                      <i class="bi bi-router h1"></i>
+                  <h3>IT Support</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                  <i class="bi bi-router h1"></i>
+                  <h3>Security Systems</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                  <i class="bi bi-router h1"></i>
+                  <h3>Access Control and Biometric's</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="service-card">
+              <i class="bi bi-router h1"></i>
+              <h3>Outdoor Systems</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                      <i class="bi bi-router h1"></i>
+                  <h3>IT Support</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                  <i class="bi bi-router h1"></i>
+                  <h3>Security Systems</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+              <div class="service-card">
+                  <i class="bi bi-router h1"></i>
+                  <h3>Access Control and Biometric's</h3>
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam consequatur necessitatibus eaque.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="service-card">
+              <i class="bi bi-router h1"></i>
+              <h3>Outdoor Systems</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quisquam consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-auto py-5 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mb-4">
+            <img class="img-fluid logo" src="images/FASTNERD_logo-png.png" alt="">
+            <p class="text-dark">We're remote friendly, with office locations around Ghana: <a href="#" class="text-primary">Kumasi</a> and <a href="#" class="text-primary">Accra</a></p>
+            <div>
+              <a href="#" class="me-2"><i class="bi bi-instagram h4"></i></a>
+              <a href="#" class="me-2"><i class="bi bi-facebook h4"></i></a>
+              <a href="#" class="me-2"><i class="bi bi-twitter-x h4"></i></a>
+              <a href="#" class="me-2"><i class="bi bi-linkedin h4"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h5 class="text-primary">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Careers <span class="text-danger">we're hiring</span></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h5 class="text-primary">Solutions</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Data protection</a></li>
+              <li><a href="#">Authentication</a></li>
+              <li><a href="#">Business Identity</a></li>
+              <li><a href="#">Quality Assurance</a></li>
+              <li><a href="#">Machine Learning</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h5 class="text-primary">Reach us</h5>
+            <p><a href="mailto:hello@lyonl.com">hello@fastnerd.com</a></p>
+            <p><a href="tel:+188899LYONL">+233 000 0000</a></p>
+          </div>
+        </div>
+          <div class="container text-center mt-3">
+              <p class="lead">Copyright &copy; 2024 All rights reserved . Fastnerd</p>
+              <a href="" class="up-button position-relative bottom-0 end-0 p-5">
+                  <i class="bi bi-arrow-up-circle h1"></i>
+              </a>
+          </div>
+      </div>
+    </footer>
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/drop.js"></script>
+</html>
